@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="images/3.PNG" alt="Мир Щебень" class="logo__img">
+                </a>
+                
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Главная</a></li>
+                        <li class="nav__item dropdown">
+                            <a href="materials.html" class="nav__link">Материалы</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="material-granit.html">Щебень гранитный</a></li>
+                                <li><a href="material-izvestnyak.html">Щебень известняковый</a></li>
+                                <li><a href="material-shps.html">ЩПС</a></li>
+                                <li><a href="material-otsev.html">Отсев гранитный</a></li>
+                                <li><a href="material-pgs.html">ПГС</a></li>
+                                <li><a href="material-pesok.html">Песок</a></li>
+                                <li><a href="material-grunt.html">Грунт</a></li>
+                                <li><a href="material-asphalt.html">Асфальтовая крошка</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="delivery.html" class="nav__link">Доставка</a></li>
+                        <li class="nav__item dropdown">
+                            <a href="construction.html" class="nav__link">Строительные работы</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="construction.html#blago">Благоустройство</a></li>
+                                <li><a href="construction.html#earth">Земляные работы</a></li>
+                                <li><a href="construction.html#road">Дорожные работы</a></li>
+                                <li><a href="construction.html#montage">Монтажные работы</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">О компании</a></li>
+                        <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header__contacts">
+                    <button class="btn callback-btn">Заказать звонок</button>
+                </div>
+                
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+<main>
+    <section class="hero" style="background-image: url('images/1.PNG');">
+        <div class="container">
+            <div class="hero__content">
+                <h1 class="hero__title">Грузоперевозки</h1>
+                <h1 class="hero__title">Строительные услуги</h1>
+                <p class="hero__text">Надежные решения для вашего бизнеса с 2010 года</p>
+                <div class="hero__buttons">
+                    <a href="materials.html" class="btn btn--primary">Заказать нерудные материалы</a>
+                    <a href="construction.html" class="btn btn--primary">Строительные услуги</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="advantages">
+            <div class="container">
+                <h2 class="section-title">Почему выбирают нас</h2>
+                <div class="advantages__grid">
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Надежность</h3>
+                        <p class="advantage-card__text">Гарантируем сохранность грузов и соблюдение сроков</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-ruble-sign"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Доступные цены</h3>
+                        <p class="advantage-card__text">Гибкие тарифы и индивидуальный подход к каждому клиенту</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Оперативность</h3>
+                        <p class="advantage-card__text">Быстрое оформление заказов и выполнение работ</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Опытные специалисты</h3>
+                        <p class="advantage-card__text">Квалифицированные сотрудники с большим стажем работы</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <div class="container">
+                <h2 class="section-title">Наши услуги</h2>
+                <div class="services__grid">
+                    <div class="service-card">
+                        <div class="service-card__image" style="background-image: url('images/service1.png');"></div>
+                        <div class="service-card__content">
+                            <h3 class="service-card__title">Доставка нерудных материалов</h3>
+                            <p class="service-card__text">Перевозка грузов любой сложности по всей России</p>
+                            <a href="materials.html" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-card__image" style="background-image: url('images/service2.PNG');"></div>
+                        <div class="service-card__content">
+                            <h3 class="service-card__title">Строительные работы</h3>
+                            <p class="service-card__text">Полный комплекс строительно-монтажных работ</p>
+                            <a href="construction.html" class="btn btn--small">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="materials">
+            <div class="container">
+                <h2 class="section-title">Популярные материалы</h2>
+                <div class="materials__grid">
+                    <a href="material-granit.html" class="material-card">
+                        <div class="material-card__image" style="background-image: url('images/granitnyy-shcheben.jpg');"></div>
+                        <div class="material-card__content">
+                            <h3 class="material-card__title">Щебень гранитный</h3>
+                            <p class="material-card__price">от 1 500 ₽/м³</p>
+                        </div>
+                    </a>
+                    <a href="material-izvestnyak.html" class="material-card">
+                        <div class="material-card__image" style="background-image: url('images/izvestnyak.jpg');"></div>
+                        <div class="material-card__content">
+                            <h3 class="material-card__title">Щебень известняковый</h3>
+                            <p class="material-card__price">от 1 200 ₽/м³</p>
+                        </div>
+                    </a>
+                    <a href="material-pesok.html" class="material-card">
+                        <div class="material-card__image" style="background-image: url('images/pesok.jpg');"></div>
+                        <div class="material-card__content">
+                            <h3 class="material-card__title">Песок</h3>
+                            <p class="material-card__price">от 800 ₽/м³</p>
+                        </div>
+                    </a>
+                    <a href="material-pgs.html" class="material-card">
+                        <div class="material-card__image" style="background-image: url('images/pgs.jpg');"></div>
+                        <div class="material-card__content">
+                            <h3 class="material-card__title">ПГС</h3>
+                            <p class="material-card__price">от 900 ₽/м³</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="materials.html" class="btn btn--secondary">Все материалы</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="delivery">
+            <div class="container">
+                <h2 class="section-title">Доставка гравийного щебня, песка, гравия</h2>
+                <div class="swiper delivery-slider">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="delivery-slide" style="background-image: url('images/delivery1.jpeg');">
+                                <div class="delivery-slide__content">
+                                    <h3 class="delivery-slide__title">Самосвалы 10-20 тонн</h3>
+                                    <p class="delivery-slide__text">Оперативная доставка в день заказа</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="delivery-slide" style="background-image: url('images/delivery2.jpeg');">
+                                <div class="delivery-slide__content">
+                                    <h3 class="delivery-slide__title">Собственный автопарк</h3>
+                                    <p class="delivery-slide__text">Доставка с разгрузкой в труднодоступные места</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="delivery-slide" style="background-image: url('images/delivery3.jpeg');">
+                                <div class="delivery-slide__content">
+                                    <h3 class="delivery-slide__title">Доставка по Ленобласти</h3>
+                                    <p class="delivery-slide__text">Привезем материалы в любой район</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+                <div class="delivery__info">
+                    <div class="delivery__item">
+                        <i class="fas fa-truck"></i>
+                        <p>Доставка от 1 м³</p>
+                    </div>
+                    <div class="delivery__item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>По всему СПб и ЛО</p>
+                    </div>
+                    <div class="delivery__item">
+                        <i class="fas fa-clock"></i>
+                        <p>Круглосуточно</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="container">
+                <h2 class="section-title">Наши преимущества</h2>
+                <div class="advantages__grid">
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Качество</h3>
+                        <p class="advantage-card__text">Все материалы соответствуют ГОСТ и имеют сертификаты</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-ruble-sign"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Цены от производителя</h3>
+                        <p class="advantage-card__text">Работаем без посредников, поэтому предлагаем лучшие цены</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Оперативность</h3>
+                        <p class="advantage-card__text">Доставка в день заказа при наличии материала</p>
+                    </div>
+                    <div class="advantage-card">
+                        <div class="advantage-card__icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3 class="advantage-card__title">Гибкий расчет</h3>
+                        <p class="advantage-card__text">Рассчитаем необходимое количество материала</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container">
+                <div class="cta__content">
+                    <h2 class="cta__title">Нужна консультация?</h2>
+                    <p class="cta__text">Наши специалисты помогут подобрать материал и рассчитать стоимость</p>
+                    <button class="btn btn--primary btn--large open-form">Получить консультацию</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <a href="index.html" class="logo footer__logo">
+                        <img src="images/logo-white.PNG" alt="Мир" class="logo__img">
+                    </a>
+                    <p class="footer__text">Продажа и доставка щебня, песка и других строительных материалов в Санкт-Петербурге и Ленинградской области</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Материалы</h3>
+                    <ul class="footer__list">
+                        <li><a href="material-granit.html">Щебень гранитный</a></li>
+                        <li><a href="material-izvestnyak.html">Щебень известняковый</a></li>
+                        <li><a href="material-pesok.html">Песок</a></li>
+                        <li><a href="material-pgs.html">ПГС</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Услуги</h3>
+                    <ul class="footer__list">
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="construction.html">Строительные работы</a></li>
+                        <li><a href="blagoustroistvo.html">Благоустройство</a></li>
+                        <li><a href="zemlyanye.html">Земляные работы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li><i class="fas fa-map-marker-alt"></i> г. Санкт-Петербург  проспект Ириновский, д. 2, лит. А, пом. 1Н, офис 205/Б</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+79052561719">+7 (905)-256-17-19</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:spb_mir@bk.ru">spb_mir@bk.ru</a></li>
+                        <li><i class="fas fa-clock"></i> Пн-Вс: 8:00 - 22:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 ООО "Мир". Все права защищены.</p>
+                <a href="#" class="footer__link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="callback-modal">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <h3 class="modal__title">Оставить заявку</h3>
+            <form class="form">
+                <div class="form__group">
+                    <input type="text" class="form__input" placeholder="Ваше имя" required>
+                </div>
+                <div class="form__group">
+                    <input type="tel" class="form__input" placeholder="Телефон" required>
+                </div>
+                <div class="form__group">
+                    <textarea class="form__textarea" placeholder="Сообщение"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--block">Отправить</button>
+                <div class="form__agree">
+                    <input type="checkbox" id="agree" checked required>
+                    <label for="agree">Я согласен на обработку персональных данных</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

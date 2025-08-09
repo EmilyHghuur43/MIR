@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мир</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a href="index.html" class="logo">
+                    <img src="images/3.PNG" alt="Мир Щебень" class="logo__img">
+                </a>
+                
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link active">Главная</a></li>
+                        <li class="nav__item dropdown">
+                            <a href="materials.html" class="nav__link">Материалы</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="material-granit.html">Щебень гранитный</a></li>
+                                <li><a href="material-izvestnyak.html">Щебень известняковый</a></li>
+                                <li><a href="material-shps.html">ЩПС</a></li>
+                                <li><a href="material-otsev.html">Отсев гранитный</a></li>
+                                <li><a href="material-pgs.html">ПГС</a></li>
+                                <li><a href="material-pesok.html">Песок</a></li>
+                                <li><a href="material-grunt.html">Грунт</a></li>
+                                <li><a href="material-asphalt.html">Асфальтовая крошка</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="delivery.html" class="nav__link">Доставка</a></li>
+                        <li class="nav__item dropdown">
+                            <a href="construction.html" class="nav__link">Строительные работы</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="construction.html#blago">Благоустройство</a></li>
+                                <li><a href="construction.html#earth">Земляные работы</a></li>
+                                <li><a href="construction.html#road">Дорожные работы</a></li>
+                                <li><a href="construction.html#montage">Монтажные работы</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav__item"><a href="about.html" class="nav__link">О компании</a></li>
+                        <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header__contacts">
+                    <button class="btn callback-btn">Заказать звонок</button>
+                </div>
+                
+                <button class="burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header" style="background-image: url();">
+            <div class="container">
+                <h1 class="page-header__title">Доставка</h1>
+                <nav class="breadcrumbs">
+                    <a href="index.html" class="breadcrumbs__link">Главная</a>
+                    <span class="breadcrumbs__separator">/</span>
+                    <span class="breadcrumbs__current">Доставка нерудных материалов</span>
+                </nav>
+            </div>
+        </section>
+
+        <section class="transport-section">
+            <div class="container">
+                <div class="transport-grid">
+                    <div class="transport-content">
+                        <h2 class="section-title">Профессиональные грузоперевозки</h2>
+                        <p>Компания "Мир" предлагает полный комплекс услуг по перевозке грузов любого типа и объема. Наш автопарк состоит из современных грузовых автомобилей различной грузоподъемности, что позволяет нам оперативно и безопасно доставлять ваш груз в любую точку России.</p>
+                        
+                        <h3>Наши преимущества:</h3>
+                        <ul class="checked-list">
+                            <li>Собственный автопарк современной техники</li>
+                            <li>Опытные водители с большим стажем</li>
+                            <li>Страхование груза</li>
+                            <li>Круглосуточный мониторинг перемещения</li>
+                            <li>Гибкая система скидок для постоянных клиентов</li>
+                        </ul>
+
+                        <div class="transport-types">
+                            <h3>Мы осуществляем перевозки:</h3>
+                            <div class="transport-types__grid">
+                                <div class="transport-type">
+                                    <i class="fas fa-cubes"></i>
+                                    <h4>Нерудные материалы</h4>
+                                </div>
+                                <div class="transport-type">
+                                    <i class="fas fa-mountain"></i>
+                                    <h4>Природный грунт</h4>
+                                </div>
+                                <div class="transport-type">
+                                    <i class="fas fa-trash-alt"></i>
+                                    <h4>Строительный мусор</h4>
+                                </div>
+                                <div class="transport-type">
+                                    <i class="fas fa-truck-loading"></i>
+                                    <h4>Вывоз грунта</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="transport-form">
+                        <div class="calculator-card">
+                            <h3 class="calculator-title">Калькулятор стоимости</h3>
+                            <form id="transport-calculator" class="calculator-form">
+                                <div class="form-group">
+                                    <label for="distance">Расстояние (км)</label>
+                                    <input type="number" id="distance" min="1" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="weight">Вес груза (кг)</label>
+                                    <input type="number" id="weight" min="1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="volume">Объем (м³)</label>
+                                    <input type="number" id="volume" min="0.1" step="0.1">
+                                </div>
+                                <div class="form-group">
+                                    <label for="vehicle-type">Тип транспорта</label>
+                                    <select id="vehicle-type" required>
+                                        <option value="small">Маленький (до 1.5 т)</option>
+                                        <option value="medium">Средний (до 5 т)</option>
+                                        <option value="large">Большой (до 20 т)</option>
+                                        <option value="refrigerator">Рефрижератор</option>
+                                        <option value="tanker">Цистерна</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="urgency">Срочность</label>
+                                    <select id="urgency">
+                                        <option value="standard">Стандартная</option>
+                                        <option value="express">Экспресс</option>
+                                        <option value="urgent">Срочная</option>
+                                    </select>
+                                </div>
+                            </form>
+
+                            <div id="calculation-result" class="calculator-result hidden">
+                                <h4>Примерная стоимость:</h4>
+                                <div class="result-price" id="price">0 ₽</div>
+                                <div class="result-time" id="time">0 часов</div>
+                                <p class="result-note">Точную стоимость уточняйте у менеджера</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__col">
+                    <a href="index.html" class="logo footer__logo">
+                        <img src="images/logo-white.PNG" alt="Мир" class="logo__img">
+                    </a>
+                    <p class="footer__text">Продажа и доставка щебня, песка и других строительных материалов в Санкт-Петербурге и Ленинградской области</p>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Материалы</h3>
+                    <ul class="footer__list">
+                        <li><a href="material-granit.html">Щебень гранитный</a></li>
+                        <li><a href="material-izvestnyak.html">Щебень известняковый</a></li>
+                        <li><a href="material-pesok.html">Песок</a></li>
+                        <li><a href="material-pgs.html">ПГС</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Услуги</h3>
+                    <ul class="footer__list">
+                        <li><a href="delivery.html">Доставка</a></li>
+                        <li><a href="construction.html">Строительные работы</a></li>
+                        <li><a href="blagoustroistvo.html">Благоустройство</a></li>
+                        <li><a href="zemlyanye.html">Земляные работы</a></li>
+                    </ul>
+                </div>
+                <div class="footer__col">
+                    <h3 class="footer__title">Контакты</h3>
+                    <ul class="footer__contacts">
+                        <li><i class="fas fa-map-marker-alt"></i> г. Санкт-Петербург  проспект Ириновский, д. 2, лит. А, пом. 1Н, офис 205/Б</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+79052561719">+7 (905)-256-17-19</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:spb_mir@bk.ru">spb_mir@bk.ru</a></li>
+                        <li><i class="fas fa-clock"></i> Пн-Вс: 8:00 - 22:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2025 ООО "Мир". Все права защищены.</p>
+                <a href="#" class="footer__link">Политика конфиденциальности</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="callback-modal">
+        <div class="modal__content">
+            <button class="modal__close">&times;</button>
+            <h3 class="modal__title">Оставить заявку</h3>
+            <form class="form">
+                <div class="form__group">
+                    <input type="text" class="form__input" placeholder="Ваше имя" required>
+                </div>
+                <div class="form__group">
+                    <input type="tel" class="form__input" placeholder="Телефон" required>
+                </div>
+                <div class="form__group">
+                    <textarea class="form__textarea" placeholder="Сообщение"></textarea>
+                </div>
+                <button type="submit" class="btn btn--primary btn--block">Отправить</button>
+                <div class="form__agree">
+                    <input type="checkbox" id="agree" checked required>
+                    <label for="agree">Я согласен на обработку персональных данных</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/delivery.js"></script>
+</body>
+</html>
